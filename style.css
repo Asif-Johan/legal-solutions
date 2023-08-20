@@ -4,3 +4,27 @@
    
 
 }
+
+details > summary {
+    list-style: none;
+  }
+  details > summary::-webkit-details-marker {
+    display: none;
+  }
+
+  /* Stack overflow */
+  .burger{
+    display: block;
+  }
+
+
+  @media (min-width: 1024px){
+    .burger {
+        display: none;
+    }
+    
+  }
+
+  .broo{
+    display: block;
+  }
