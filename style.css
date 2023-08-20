@@ -17,6 +17,16 @@ details > summary {
     display: block;
   }
 
+  .contrary {
+    -ms-overflow-style: none; 
+     
+    scrollbar-width: none;  
+   
+}
+.contrary::-webkit-scrollbar { 
+    display: none;  
+   
+}
 
   @media (min-width: 1024px){
     .burger {
